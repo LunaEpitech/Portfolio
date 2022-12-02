@@ -1,8 +1,11 @@
 <template>
     <div class="Repos">
-        <li v-for="data in data" :key="data.name">
-            <a :href="data.html_url">{{data.name}}<br></a>
-        </li>
+        <p><br><br><br><br><br></p>
+        <p v-for="data in data" :key="data.name">
+            <div class="gitBox">
+                <a :href="data.html_url">{{data.name}}</a>
+            </div>
+        </p>
     </div>
     <div class="mainBox">
         <p>Le <a href="https://thomy-lorenzatti.notion.site/thomy-lorenzatti/Pr-sentation-JAM-Portfolio-1e8c57ecb4044871bb57198238500928" target="_blank">Notion</a></p>
@@ -42,13 +45,26 @@
 .Repos {
     display:flex;
     float:left;
-    left: 5%;
-    justify-content: center;
+    flex-direction: column;
     color:rgb(229, 184, 244);
     text-shadow: 1px 1px 1px rgb(193, 71, 233);
     background-color: rgb(45, 3, 59);
     width: 100vw;
     height: 100vh;
+}
+.gitBox {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display:flex;
+    text-align: left;
+    border: 10px solid rgb(129, 12, 168);
+    color:rgb(229, 184, 244);
+    text-shadow: 1px 1px 1px rgb(193, 71, 233);
+    background-color: rgb(193, 71, 233);
+    width: 30vw;
+    height: 10px;
+    align-items:center;
 }
 
 header {
