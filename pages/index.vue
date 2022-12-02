@@ -8,9 +8,8 @@
         </p>
     </div>
     <div class="mainBox">
-        <p>Le <a href="https://thomy-lorenzatti.notion.site/thomy-lorenzatti/Pr-sentation-JAM-Portfolio-1e8c57ecb4044871bb57198238500928" target="_blank">Notion</a></p>
-        <p>Documentation <a href="https://v3.nuxtjs.org/" target="_blank">Nuxt 3</a></p>
-        <p>Documentation <a href="https://vuejs.org/" target="_blank">Vuejs</a></p>
+        <p>Temporary text !</p>
+        <p>Come back later ;)</p>
     </div>
     <header>
         <p>Working towards a better future</p>
