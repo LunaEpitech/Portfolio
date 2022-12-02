@@ -52,18 +52,23 @@ footer {
 
 .Repos {
     display:flex;
-    /*width: 70vw;
-    height: 100vh;*/
+    float:left;
+    justify-content: center;
+    color:rgb(229, 184, 244);
+    text-shadow: 1px 1px 1px rgb(193, 71, 233);
+    background-color: rgb(45, 3, 59);
+    width: 25%;
+    height: 100vh;
 }
 .mainBox {
     display: flex;
+    float:right;
     color:rgb(229, 184, 244);
     text-shadow: 1px 1px 1px rgb(193, 71, 233);
     flex-direction: column;
     justify-content: center;
     font-size: 30px;
-    padding-left: 10vw;
-    width: 30vw;
+    width: 40%;
     height: 100vh;
     background-color: rgb(45, 3, 59);
 }
